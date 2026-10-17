@@ -41,6 +41,7 @@ app.add_middleware(
         "http://localhost:3000",
         "http://127.0.0.1:3000"
     ],
+    allow_origin_regex=r"https?://.*",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -68,6 +69,11 @@ def health_check():
         "medical_safety_engine": "active",
         "languages_supported": ["en", "hi", "te", "ta", "mr", "bn", "kn"]
     }
+
+# Mount static frontend build if it exists (for single-container/Render full-stack deployment)
+_dist_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "..", "frontend", "dist")
+if os.path.exists(_dist_path):
+    app.mount("/", StaticFiles(directory=_dist_path, html=True), name="static_frontend")
 
 if __name__ == "__main__":
     import uvicorn
