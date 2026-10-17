@@ -1,0 +1,188 @@
+[
+  {
+    "id": "case-cardiac-001",
+    "condition_category": "cardiac",
+    "patient_name": "Ramesh Kumar Sharma",
+    "age": 58,
+    "gender": "Male",
+    "admission_date": "2026-10-02",
+    "discharge_date": "2026-10-06",
+    "diagnosis": "Acute Coronary Syndrome - NSTEMI, Post-PTCA with DES to LAD, Hypertension, Dyslipidemia",
+    "raw_discharge_text": "APOLLO HOSPITALS - DISCHARGE SUMMARY\nPATIENT NAME: Ramesh Kumar Sharma | AGE: 58Y / MALE | IP NO: AP-884920\nADMISSION: 02/10/2026 | DISCHARGE: 06/10/2026\nDEPARTMENT: Cardiology | CONSULTANT: Dr. V. Narayanan, MD, DM (Card)\n\nDIAGNOSIS:\nAcute Coronary Syndrome (NSTEMI) - S/P Primary PTCA with Drug-Eluting Stent (DES) to proximal LAD on 02/10/2026.\nEssential Hypertension. Dyslipidemia.\n\nHOSPITAL COURSE:\nPatient admitted with retrosternal chest pain radiating to left arm. Coronary angiography revealed 90% thrombotic stenosis in proximal LAD. Successfully deployed 3.0 x 24 mm DES. Post-procedure hemodynamics stable. Troponin I trended down from 4.8 ng/mL to 0.12 ng/mL. LVEF on echo 50%. Patient mobilized well.\n\nDISCHARGE MEDICATIONS:\n1. Tab. Ecosprin (Aspirin) 75 mg - 1 tablet - Once daily (OD) - After lunch - Duration: Lifelong\n2. Tab. Clopilet (Clopidogrel) 75 mg - 1 tablet - Once daily (OD) - Morning after breakfast - Duration: 12 months\n3. Tab. Atorva (Atorvastatin) 40 mg - 1 tablet - Once daily at bedtime (HS) - Duration: Ongoing\n4. Tab. Telma (Telmisartan) 40 mg - 1 tablet - Once daily (OD) - Morning - Duration: Ongoing\n5. Tab. Metolar XR (Metoprolol Succinate) 25 mg - 1 tablet - Once daily (OD) - Morning - Duration: 6 months\n6. Tab. Pan 40 (Pantoprazole) 40 mg - 1 tablet - Once daily before breakfast (OD BBF) - Duration: 1 month\n7. Tab. Sorbitrate 5 mg - 1 tablet Sublingual (SL) - SOS only if severe chest pain occurs\n\nDIET & ACTIVITY INSTRUCTIONS:\n- Strict low-salt diet (< 3 grams/day), strictly low-fat and low-cholesterol diet.\n- No heavy weight lifting (> 5 kg) or strenuous exercise for 4 weeks.\n- Light brisk walking for 20 minutes daily starting after 1 week.\n- Strict smoking and alcohol cessation.\n\nWARNING SIGNS - RETURN TO EMERGENCY IMMEDIATELY IF:\n- Recurrent severe chest pain, tightness or pressure radiating to jaw or left arm\n- Shortness of breath at rest or profuse unexplained sweating\n- Dizziness, blackouts or syncope\n- Bleeding gums, blood in urine or black tarry stools\n\nFOLLOW-UP APPOINTMENT:\n- Visit Cardiology OPD on 20/10/2026 at 10:30 AM with Dr. V. Narayanan with repeat ECG and Fasting Lipid Profile.\n- For emergencies contact Apollo 24x7 Emergency helpline: 1066.",
+    "ground_truth": {
+      "medicines": [
+        {"name": "Ecosprin (Aspirin)", "dose": "75", "unit": "mg", "frequency": "Once daily", "timing": "After lunch", "duration": "Lifelong"},
+        {"name": "Clopilet (Clopidogrel)", "dose": "75", "unit": "mg", "frequency": "Once daily", "timing": "Morning after breakfast", "duration": "12 months"},
+        {"name": "Atorva (Atorvastatin)", "dose": "40", "unit": "mg", "frequency": "Once daily", "timing": "Bedtime", "duration": "Ongoing"},
+        {"name": "Telma (Telmisartan)", "dose": "40", "unit": "mg", "frequency": "Once daily", "timing": "Morning", "duration": "Ongoing"},
+        {"name": "Metolar XR (Metoprolol Succinate)", "dose": "25", "unit": "mg", "frequency": "Once daily", "timing": "Morning", "duration": "6 months"},
+        {"name": "Pan 40 (Pantoprazole)", "dose": "40", "unit": "mg", "frequency": "Once daily", "timing": "Before breakfast", "duration": "1 month"},
+        {"name": "Sorbitrate", "dose": "5", "unit": "mg", "frequency": "SOS / As needed", "timing": "Sublingual only for chest pain", "duration": "As needed"}
+      ],
+      "follow_up_date": "2026-10-20",
+      "follow_up_department": "Cardiology OPD",
+      "follow_up_doctor": "Dr. V. Narayanan",
+      "warning_signs": [
+        "Recurrent severe chest pain or pressure radiating to arm",
+        "Shortness of breath at rest or heavy sweating",
+        "Dizziness or blackouts",
+        "Unusual bleeding or black tarry stools"
+      ],
+      "diet_restrictions": ["Low-salt diet (<3g/day)", "Low-fat low-cholesterol diet"],
+      "activity_restrictions": ["No lifting > 5kg for 4 weeks", "Light walking 20 mins/day after 1 week"]
+    }
+  },
+  {
+    "id": "case-diabetes-002",
+    "condition_category": "diabetes",
+    "patient_name": "Lakshmi Narayanan",
+    "age": 52,
+    "gender": "Female",
+    "admission_date": "2026-09-15",
+    "discharge_date": "2026-09-18",
+    "diagnosis": "Type 2 Diabetes Mellitus with Hyperglycemic Hyperosmolar State (resolved), Diabetic Neuropathy",
+    "raw_discharge_text": "FORTIS HEALTHCARE - DISCHARGE SUMMARY\nPATIENT: Lakshmi Narayanan | AGE: 52Y / F | IP: FH-49201\nADMITTED: 15/09/2026 | DISCHARGED: 18/09/2026\nENDOCRINOLOGY CLINIC | CONSULTANT: Dr. S. Rao, DM (Endo)\n\nDIAGNOSIS:\nUncontrolled Type 2 Diabetes Mellitus with severe symptomatic hyperglycemia (BSL on admission 480 mg/dL, HbA1c 11.2%). Resolved without ketoacidosis.\nDiabetic Peripheral Neuropathy.\n\nDISCHARGE MEDICATIONS:\n1. Inj. Human Mixtard (30/70) - 16 Units Subcutaneous (SC) before breakfast, and 10 Units Subcutaneous (SC) before dinner daily.\n2. Tab. Glycomet (Metformin) 500 mg - 1 tablet - Twice daily (BD) - Taken with meals - Duration: Ongoing\n3. Tab. Gabapin (Gabapentin) 100 mg - 1 tablet - Once daily at bedtime (HS) - Duration: 3 months\n\nDIET & LIFESTYLE:\n- Diabetic diet with strict carbohydrate counting: strictly avoid refined sugar, sweets, white bread and fruit juices.\n- High fiber diet with green leafy vegetables and whole pulses.\n- Check fasting and post-prandial blood sugar 3 times a week using glucometer and log values.\n- Foot care: inspect feet daily for cuts, blisters or cracks; do not walk barefoot.\n\nWARNING SIGNS - SEEK IMMEDIATE CARE IF:\n- Signs of hypoglycemia (sugar < 70 mg/dL): shakiness, sweating, palpitations, confusion (take 3 glucose biscuits or 15g sugar immediately)\n- Extreme drowsiness, persistent vomiting or inability to keep fluids down\n- Non-healing foot sore, ulcer or blackish discoloration of toe\n\nFOLLOW-UP:\n- Endocrinology clinic review on 02/10/2026 at 11:00 AM with home glucose log and repeat Fasting Blood Sugar.",
+    "ground_truth": {
+      "medicines": [
+        {"name": "Human Mixtard (30/70)", "dose": "16 Units morning, 10 Units night", "unit": "Units", "frequency": "Twice daily", "timing": "Before breakfast and dinner", "duration": "Ongoing"},
+        {"name": "Glycomet (Metformin)", "dose": "500", "unit": "mg", "frequency": "Twice daily", "timing": "With meals", "duration": "Ongoing"},
+        {"name": "Gabapin (Gabapentin)", "dose": "100", "unit": "mg", "frequency": "Once daily", "timing": "Bedtime", "duration": "3 months"}
+      ],
+      "follow_up_date": "2026-10-02",
+      "follow_up_department": "Endocrinology clinic",
+      "follow_up_doctor": "Dr. S. Rao",
+      "warning_signs": [
+        "Hypoglycemia (sugar < 70) with shaking, sweating, confusion",
+        "Persistent vomiting or extreme drowsiness",
+        "Foot ulcers, cuts or black discoloration"
+      ],
+      "diet_restrictions": ["No refined sugar, sweets, white bread", "High fiber diet"],
+      "activity_restrictions": ["Do not walk barefoot", "Daily foot inspection"]
+    }
+  },
+  {
+    "id": "case-postop-003",
+    "condition_category": "post-op",
+    "patient_name": "Priya Ananth",
+    "age": 29,
+    "gender": "Female",
+    "admission_date": "2026-10-10",
+    "discharge_date": "2026-10-13",
+    "diagnosis": "Acute Appendicitis - S/P Laparoscopic Appendectomy",
+    "raw_discharge_text": "MANIPAL HOSPITAL - SURGICAL DISCHARGE SUMMARY\nPATIENT: Priya Ananth | AGE: 29Y / F | MRN: MH-90213\nADMISSION: 10/10/2026 | DISCHARGE: 13/10/2026\nGENERAL SURGERY | SURGEON: Dr. Anita Deshmukh, MS, FMAS\n\nOPERATIVE PROCEDURE:\nLaparoscopic Appendectomy on 10/10/2026 under General Anesthesia. Intra-op findings: acutely inflamed retrocecal appendix with fibrinous exudate, no perforation. Ports closed with subcuticular Monocryl sutures.\n\nDISCHARGE MEDICATIONS:\n1. Tab. Augmentin (Amoxicillin + Clavulanate) 625 mg - 1 tablet - Twice daily (BD) - After food - Duration: 5 days\n2. Tab. Dolo 650 (Paracetamol) 650 mg - 1 tablet - Three times daily (TDS) - After food - Duration: 3 days, then SOS for pain\n3. Tab. Pantocid (Pantoprazole) 40 mg - 1 tablet - Once daily (OD) - Before breakfast - Duration: 5 days\n4. Syp. Cremaffin 15 mL - At bedtime (HS) - Duration: 5 days as needed for constipation\n\nWOUND CARE & RECOVERY:\n- Keep port site dressings dry and intact until post-op review. Sponge bath allowed; do not soak in bathtub or swim.\n- No lifting weights heavier than 3 kg for 3 weeks.\n- Avoid driving for 7 days.\n\nWARNING SIGNS - REPORT TO EMERGENCY IF:\n- High fever (> 101 F) with chills\n- Increasing abdominal swelling, severe pain not relieved by medication\n- Redness, severe tenderness, or foul-smelling pus oozing from surgical incisions\n- Persistent nausea or vomiting\n\nFOLLOW-UP APPOINTMENT:\n- Surgical OPD on 20/10/2026 at 02:00 PM for wound assessment and dressing removal with Dr. Anita Deshmukh.",
+    "ground_truth": {
+      "medicines": [
+        {"name": "Augmentin (Amoxicillin + Clavulanate)", "dose": "625", "unit": "mg", "frequency": "Twice daily", "timing": "After food", "duration": "5 days"},
+        {"name": "Dolo 650 (Paracetamol)", "dose": "650", "unit": "mg", "frequency": "Three times daily", "timing": "After food", "duration": "3 days then SOS"},
+        {"name": "Pantocid (Pantoprazole)", "dose": "40", "unit": "mg", "frequency": "Once daily", "timing": "Before breakfast", "duration": "5 days"},
+        {"name": "Syp. Cremaffin", "dose": "15", "unit": "mL", "frequency": "Once daily", "timing": "Bedtime", "duration": "5 days as needed"}
+      ],
+      "follow_up_date": "2026-10-20",
+      "follow_up_department": "Surgical OPD",
+      "follow_up_doctor": "Dr. Anita Deshmukh",
+      "warning_signs": [
+        "Fever > 101 F with chills",
+        "Worsening belly pain or swelling",
+        "Redness, swelling, or pus leaking from surgical wounds",
+        "Persistent vomiting"
+      ],
+      "diet_restrictions": ["Light home cooked meals", "High fiber and plenty of fluids"],
+      "activity_restrictions": ["No lifting > 3kg for 3 weeks", "No driving for 7 days", "Keep dressings dry"]
+    }
+  },
+  {
+    "id": "case-respiratory-004",
+    "condition_category": "respiratory",
+    "patient_name": "Mohammad Irfan",
+    "age": 64,
+    "gender": "Male",
+    "admission_date": "2026-09-28",
+    "discharge_date": "2026-10-03",
+    "diagnosis": "Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD), Type 2 Respiratory Failure (Resolved)",
+    "raw_discharge_text": "MAX SUPER SPECIALITY HOSPITAL - DISCHARGE SUMMARY\nPATIENT: Mohammad Irfan | AGE: 64Y / M | UHID: MX-10294\nADMITTED: 28/09/2026 | DISCHARGED: 03/10/2026\nPULMONOLOGY | CONSULTANT: Dr. Rajiv Mehra, MD (Pulm)\n\nDIAGNOSIS:\nAcute Exacerbation of COPD triggered by lower respiratory tract infection. Hypoxemia corrected on BiPAP initially, now maintaining SpO2 93% on room air.\n\nDISCHARGE MEDICATIONS:\n1. Foracort Inhaler (Formoterol 6 mcg + Budesonide 200 mcg) - 2 puffs - Twice daily (BD) - Duration: Ongoing\n   *Note: Rinse mouth and gargle with water thoroughly after each use.*\n2. Asthalin Inhaler (Salbutamol 100 mcg) - 2 puffs - SOS only when experiencing sudden breathlessness or wheeze.\n3. Tab. Omnacortil (Prednisolone) 20 mg - 1 tablet - Once daily in morning after food - Duration: 5 days, then reduce to 10 mg once daily for 3 days, then stop.\n4. Tab. Ceftum (Cefuroxime Axetil) 500 mg - 1 tablet - Twice daily (BD) - After meals - Duration: 5 days\n5. Tab. Pan 40 40 mg - 1 tablet - OD before breakfast - Duration: 8 days\n\nRESPIRATORY CARE & RESTRICTIONS:\n- Complete smoking cessation is essential. Avoid smoke, incense, and dust exposure.\n- Incentive spirometry 10 breaths every 2 hours while awake.\n- Maintain hydration: drink 2 liters of warm water daily unless contraindicated.\n\nWARNING SIGNS - RUSH TO EMERGENCY IF:\n- Severe breathlessness not relieved within 10 minutes of Asthalin inhaler\n- SpO2 drops below 88% on pulse oximeter\n- Blue discoloration of lips or fingertips (cyanosis)\n- High fever with thick rust-colored or greenish sputum\n- Increasing confusion, extreme sleepiness or lethargy\n\nFOLLOW-UP APPOINTMENT:\n- Pulmonary Medicine OPD on 12/10/2026 at 11:30 AM with Dr. Rajiv Mehra.",
+    "ground_truth": {
+      "medicines": [
+        {"name": "Foracort Inhaler (Formoterol + Budesonide)", "dose": "2 puffs", "unit": "puffs", "frequency": "Twice daily", "timing": "Morning and night", "duration": "Ongoing"},
+        {"name": "Asthalin Inhaler (Salbutamol)", "dose": "2 puffs", "unit": "puffs", "frequency": "SOS / As needed", "timing": "Only for sudden breathlessness", "duration": "As needed"},
+        {"name": "Omnacortil (Prednisolone)", "dose": "20 mg taper", "unit": "mg", "frequency": "Once daily", "timing": "Morning after food", "duration": "5 days then taper 3 days"},
+        {"name": "Ceftum (Cefuroxime)", "dose": "500", "unit": "mg", "frequency": "Twice daily", "timing": "After meals", "duration": "5 days"},
+        {"name": "Pan 40 (Pantoprazole)", "dose": "40", "unit": "mg", "frequency": "Once daily", "timing": "Before breakfast", "duration": "8 days"}
+      ],
+      "follow_up_date": "2026-10-12",
+      "follow_up_department": "Pulmonary Medicine OPD",
+      "follow_up_doctor": "Dr. Rajiv Mehra",
+      "warning_signs": [
+        "Severe breathlessness not helped by inhaler",
+        "Oxygen SpO2 below 88%",
+        "Blue tint on lips or fingers",
+        "High fever with rust/green phlegm",
+        "Excessive sleepiness or confusion"
+      ],
+      "diet_restrictions": ["Drink 2L warm fluids daily", "Avoid cold drinks"],
+      "activity_restrictions": ["Zero smoking or smoke exposure", "Incentive spirometry exercises"]
+    }
+  },
+  {
+    "id": "case-maternity-005",
+    "condition_category": "maternity",
+    "patient_name": "Sunita Devi Sharma",
+    "age": 27,
+    "gender": "Female",
+    "admission_date": "2026-10-08",
+    "discharge_date": "2026-10-11",
+    "diagnosis": "Primigravida at 39 weeks 2 days gestation - S/P Emergency LSCS for fetal distress - Delivered healthy male infant (3.2 kg)",
+    "raw_discharge_text": "KEM HOSPITAL - MATERNITY DISCHARGE SUMMARY\nPATIENT: Sunita Devi Sharma | AGE: 27Y / F | BED: MAT-12\nADMITTED: 08/10/2026 | DISCHARGED: 11/10/2026\nOBSTETRICS & GYNAECOLOGY | UNIT HEAD: Dr. Meena Chawla, MD (OBG)\n\nDELIVERY DETAILS:\nEmergency Lower Segment Caesarean Section (LSCS) performed under spinal anesthesia on 08/10/2026 for persistent fetal bradycardia. Delivered live male baby weighing 3.2 kg with Apgar 8/10, 9/10. Mother and newborn feeding well. Lochia normal.\n\nDISCHARGE MEDICATIONS:\n1. Tab. Orofer-XT (Ferrous Ascorbate + Folic Acid) - 1 tablet - Once daily (OD) - Post lunch with lemon water - Duration: 3 months\n2. Tab. Shelcal 500 (Calcium carbonate 500 mg + Vit D3) - 1 tablet - Twice daily (BD) - After meals - Duration: 6 months (lactation period)\n3. Tab. Dolo 650 (Paracetamol) 650 mg - 1 tablet - TDS SOS only for incisional pain - Duration: 5 days\n4. Tab. Augmentin 625 mg - 1 tablet - BD after food - Duration: 5 days\n\nPOST-PARTUM CARE & NEONATAL GUIDANCE:\n- Exclusive breastfeeding on demand every 2 to 3 hours.\n- Keep cesarean wound dressing clean and dry. Avoid wetting incision.\n- Drink plenty of warm water and milk; eat nutritious home cooked meals.\n- Pelvic rest: avoid sexual intercourse for 6 weeks.\n- Avoid lifting anything heavier than baby for 6 weeks.\n\nWARNING SIGNS - RETURN TO HOSPITAL IMMEDIATELY IF:\n- Heavy vaginal bleeding (soaking more than one sanitary pad per hour or passing large clots)\n- Fever > 100.4 F or foul-smelling vaginal discharge\n- Severe redness, burning pain, swelling, or foul discharge from cesarean wound\n- Painful, hot, swollen breast lump with fever (mastitis)\n- Severe headache with vision changes or upper abdominal pain\n- Baby has poor feeding, extreme lethargy or yellowish skin (jaundice)\n\nFOLLOW-UP APPOINTMENT:\n- Mother: OBG OPD on 19/10/2026 at 10:00 AM for suture inspection with Dr. Meena Chawla.\n- Baby: Pediatric OPD on 15/10/2026 for newborn check and BCG/Hep-B vaccination.",
+    "ground_truth": {
+      "medicines": [
+        {"name": "Orofer-XT (Iron + Folic Acid)", "dose": "1 tablet", "unit": "tablet", "frequency": "Once daily", "timing": "After lunch", "duration": "3 months"},
+        {"name": "Shelcal 500 (Calcium + Vit D3)", "dose": "500", "unit": "mg", "frequency": "Twice daily", "timing": "After meals", "duration": "6 months"},
+        {"name": "Dolo 650 (Paracetamol)", "dose": "650", "unit": "mg", "frequency": "TDS SOS", "timing": "Only if needed for pain", "duration": "5 days"},
+        {"name": "Augmentin", "dose": "625", "unit": "mg", "frequency": "Twice daily", "timing": "After food", "duration": "5 days"}
+      ],
+      "follow_up_date": "2026-10-19",
+      "follow_up_department": "OBG OPD",
+      "follow_up_doctor": "Dr. Meena Chawla",
+      "warning_signs": [
+        "Heavy vaginal bleeding (soaking >1 pad/hr)",
+        "Fever > 100.4 F or foul lochia",
+        "Cesarean wound redness, swelling, or discharge",
+        "Severe breast pain with fever (mastitis)",
+        "Severe headache with vision blurring"
+      ],
+      "diet_restrictions": ["Nutritious home cooked food", "Plenty of warm fluids"],
+      "activity_restrictions": ["No lifting heavier than baby for 6 weeks", "Pelvic rest for 6 weeks"]
+    }
+  },
+  {
+    "id": "case-edge-conflict-006",
+    "condition_category": "cardiac",
+    "patient_name": "Kishore Gopal",
+    "age": 61,
+    "gender": "Male",
+    "admission_date": "2026-10-01",
+    "discharge_date": "2026-10-04",
+    "diagnosis": "Hypertension, Chronic Kidney Disease Stage 3",
+    "raw_discharge_text": "HOSPITAL DISCHARGE NOTE - CONFLICT TEST CASE\nPATIENT: Kishore Gopal | AGE: 61Y / M\n\nSECTION 1 - CLINICAL ORDERS:\nTab. Amlodipine 5 mg PO Once Daily in morning.\n\nSECTION 4 - DISCHARGE PRESCRIPTION:\nTab. Amlodipine 50 mg PO Once Daily in morning.\nTab. Torsemide 10 mg OD.\n\nFOLLOW-UP:\nCardio-Nephro clinic on 15/10/2026.",
+    "ground_truth": {
+      "has_critical_conflict": true,
+      "conflict_description": "Contradictory dose for Amlodipine: Section 1 lists 5 mg while Section 4 lists 50 mg (a potentially dangerous tenfold discrepancy).",
+      "expected_verification_status": "FAIL_CRITICAL_CONFLICT"
+    }
+  },
+  {
+    "id": "case-edge-unreadable-007",
+    "condition_category": "post-op",
+    "patient_name": "Anil Verma",
+    "age": 45,
+    "gender": "Male",
+    "admission_date": "2026-09-20",
+    "discharge_date": "2026-09-22",
+    "diagnosis": "Hernioplasty",
+    "raw_discharge_text": "DISCHARGE NOTE - BLURRY / UNREADABLE SCAN\nPATIENT: Anil Verma\nMedications:\n1. Tab. Amox??? [blurry / unreadable strength] mg - ?? times daily for ?? days.\n2. Tab. [illegible analgesic] ??? mg SOS\nFollow up: In ??? days.",
+    "ground_truth": {
+      "has_uncertain_ocr": true,
+      "uncertainty_description": "Unreadable medication name, unknown strength and frequency. Must flag OCR uncertainty and block verified status.",
+      "expected_verification_status": "FLAGGED_FOR_HUMAN_REVIEW"
+    }
+  }
+]

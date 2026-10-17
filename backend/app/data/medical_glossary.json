@@ -1,0 +1,258 @@
+{
+  "abbreviations": {
+    "OD": {
+      "full_term": "Once daily",
+      "meaning": "Take once each day",
+      "category": "frequency"
+    },
+    "BD": {
+      "full_term": "Bis in die (Twice daily)",
+      "meaning": "Take two times each day, spaced apart",
+      "category": "frequency"
+    },
+    "BID": {
+      "full_term": "Bis in die (Twice daily)",
+      "meaning": "Take two times each day, spaced apart",
+      "category": "frequency"
+    },
+    "TDS": {
+      "full_term": "Ter die sumendum (Three times daily)",
+      "meaning": "Take three times each day, roughly every 8 hours",
+      "category": "frequency"
+    },
+    "TID": {
+      "full_term": "Ter in die (Three times daily)",
+      "meaning": "Take three times each day",
+      "category": "frequency"
+    },
+    "QDS": {
+      "full_term": "Quater die sumendum (Four times daily)",
+      "meaning": "Take four times each day",
+      "category": "frequency"
+    },
+    "QID": {
+      "full_term": "Quater in die (Four times daily)",
+      "meaning": "Take four times each day",
+      "category": "frequency"
+    },
+    "SOS": {
+      "full_term": "Si opus sit (If needed / As required)",
+      "meaning": "Take only if needed (for example, for pain or fever), not on a fixed schedule",
+      "category": "timing"
+    },
+    "PRN": {
+      "full_term": "Pro re nata (As needed)",
+      "meaning": "Take only when necessary",
+      "category": "timing"
+    },
+    "HS": {
+      "full_term": "Hora somni (At bedtime)",
+      "meaning": "Take at night before going to sleep",
+      "category": "timing"
+    },
+    "BBF": {
+      "full_term": "Before breakfast",
+      "meaning": "Take on an empty stomach before morning meal",
+      "category": "timing"
+    },
+    "AC": {
+      "full_term": "Ante cibum (Before meals)",
+      "meaning": "Take 30 minutes before food",
+      "category": "timing"
+    },
+    "PC": {
+      "full_term": "Post cibum (After meals)",
+      "meaning": "Take after finishing food",
+      "category": "timing"
+    },
+    "PO": {
+      "full_term": "Per os (By mouth / Oral)",
+      "meaning": "Swallow with water",
+      "category": "route"
+    },
+    "SC": {
+      "full_term": "Subcutaneous",
+      "meaning": "Inject under the skin",
+      "category": "route"
+    },
+    "IM": {
+      "full_term": "Intramuscular",
+      "meaning": "Inject into muscle",
+      "category": "route"
+    },
+    "IV": {
+      "full_term": "Intravenous",
+      "meaning": "Give through a vein drip",
+      "category": "route"
+    },
+    "SL": {
+      "full_term": "Sublingual",
+      "meaning": "Place under the tongue until dissolved",
+      "category": "route"
+    },
+    "STAT": {
+      "full_term": "Statim (Immediately)",
+      "meaning": "Give immediately as a single dose",
+      "category": "timing"
+    },
+    "NPO": {
+      "full_term": "Nil per os (Nothing by mouth)",
+      "meaning": "Do not eat or drink anything",
+      "category": "diet"
+    },
+    "BP": {
+      "full_term": "Blood pressure",
+      "meaning": "Pressure of blood in the arteries",
+      "category": "clinical"
+    },
+    "HR": {
+      "full_term": "Heart rate",
+      "meaning": "Heartbeats per minute",
+      "category": "clinical"
+    },
+    "PR": {
+      "full_term": "Pulse rate",
+      "meaning": "Heartbeats felt at the pulse",
+      "category": "clinical"
+    },
+    "RR": {
+      "full_term": "Respiratory rate",
+      "meaning": "Breaths taken per minute",
+      "category": "clinical"
+    },
+    "SpO2": {
+      "full_term": "Oxygen saturation",
+      "meaning": "Blood oxygen level percentage",
+      "category": "clinical"
+    },
+    "BSL": {
+      "full_term": "Blood sugar level",
+      "meaning": "Amount of glucose in blood",
+      "category": "clinical"
+    },
+    "FBS": {
+      "full_term": "Fasting blood sugar",
+      "meaning": "Blood sugar measured after overnight fasting",
+      "category": "clinical"
+    },
+    "PPBS": {
+      "full_term": "Postprandial blood sugar",
+      "meaning": "Blood sugar measured 2 hours after a meal",
+      "category": "clinical"
+    },
+    "HbA1c": {
+      "full_term": "Glycated hemoglobin",
+      "meaning": "Average 3-month blood sugar check",
+      "category": "clinical"
+    },
+    "ECG": {
+      "full_term": "Electrocardiogram",
+      "meaning": "Heart electrical rhythm test",
+      "category": "clinical"
+    },
+    "CXR": {
+      "full_term": "Chest X-ray",
+      "meaning": "X-ray picture of lungs and heart",
+      "category": "clinical"
+    },
+    "USG": {
+      "full_term": "Ultrasonography",
+      "meaning": "Ultrasound scan",
+      "category": "clinical"
+    },
+    "LFT": {
+      "full_term": "Liver function test",
+      "meaning": "Blood tests measuring liver health",
+      "category": "clinical"
+    },
+    "KFT": {
+      "full_term": "Kidney function test",
+      "meaning": "Blood tests measuring kidney health (creatinine, urea)",
+      "category": "clinical"
+    },
+    "RFT": {
+      "full_term": "Renal function test",
+      "meaning": "Kidney function test",
+      "category": "clinical"
+    },
+    "CBC": {
+      "full_term": "Complete blood count",
+      "meaning": "Blood count of white cells, red cells and platelets",
+      "category": "clinical"
+    },
+    "T2DM": {
+      "full_term": "Type 2 Diabetes Mellitus",
+      "meaning": "Type 2 Diabetes (elevated blood sugar)",
+      "category": "condition"
+    },
+    "HTN": {
+      "full_term": "Hypertension",
+      "meaning": "High blood pressure",
+      "category": "condition"
+    },
+    "CAD": {
+      "full_term": "Coronary artery disease",
+      "meaning": "Heart disease caused by narrowed heart blood vessels",
+      "category": "condition"
+    },
+    "COPD": {
+      "full_term": "Chronic obstructive pulmonary disease",
+      "meaning": "Long-term lung condition causing shortness of breath",
+      "category": "condition"
+    },
+    "LSCS": {
+      "full_term": "Lower segment Caesarean section",
+      "meaning": "C-section delivery surgical birth",
+      "category": "condition"
+    },
+    "CABG": {
+      "full_term": "Coronary artery bypass graft",
+      "meaning": "Heart bypass surgery",
+      "category": "condition"
+    },
+    "PTCA": {
+      "full_term": "Percutaneous transluminal coronary angioplasty",
+      "meaning": "Heart stent procedure",
+      "category": "condition"
+    },
+    "URI": {
+      "full_term": "Upper respiratory infection",
+      "meaning": "Throat, nose, or sinus infection",
+      "category": "condition"
+    },
+    "UTI": {
+      "full_term": "Urinary tract infection",
+      "meaning": "Infection in the urinary system / bladder",
+      "category": "condition"
+    }
+  },
+  "clinical_terms_plain_language": {
+    "hypertension": "High blood pressure",
+    "hypotension": "Low blood pressure",
+    "hyperglycemia": "High blood sugar",
+    "hypoglycemia": "Low blood sugar",
+    "tachycardia": "Rapid heart rate (beating very fast)",
+    "bradycardia": "Slow heart rate",
+    "dyspnea": "Shortness of breath or breathing difficulty",
+    "edema": "Swelling caused by fluid collection (often in legs or feet)",
+    "erythema": "Redness of the skin",
+    "purulent discharge": "Pus or yellow-green drainage from a wound",
+    "febrile": "Having a fever (high body temperature)",
+    "afebrile": "No fever (normal body temperature)",
+    "analgesic": "Pain-relieving medicine",
+    "antipyretic": "Fever-reducing medicine",
+    "antiemetic": "Medicine to stop vomiting or nausea",
+    "antihypertensive": "Medicine to lower high blood pressure",
+    "anticoagulant": "Blood-thinning medicine to stop clots",
+    "antiplatelet": "Medicine stopping blood cells from clumping",
+    "antibiotic": "Medicine treating bacterial infection",
+    "diuretic": "Water pill helping body pass excess fluid in urine",
+    "hematoma": "Blood collection or deep bruise under skin",
+    "dehiscence": "Wound edges separating or opening up",
+    "ambulation": "Walking around and gentle movement",
+    "strict bed rest": "Staying in bed without standing or walking",
+    "soft diet": "Easily chewable, gentle food without hard or spicy items",
+    "low sodium diet": "Low salt food (avoid extra salt, pickles, salty snacks)",
+    "diabetic diet": "Food balanced to avoid sugar spikes (no sweets, controlled carbs)"
+  }
+}

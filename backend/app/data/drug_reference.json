@@ -1,0 +1,154 @@
+{
+  "drugs": [
+    {
+      "generic": "Metformin",
+      "common_brands": ["Glycomet", "Glucophage", "Obimet"],
+      "class": "Antidiabetic (Biguanide)",
+      "common_forms": ["Tablet", "Extended-Release Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["500mg", "850mg", "1000mg"],
+      "plain_purpose": "Helps lower blood sugar by improving body's response to insulin",
+      "food_instruction": "Take with or right after food to reduce stomach upset"
+    },
+    {
+      "generic": "Glimepiride",
+      "common_brands": ["Amaryl", "Glimy", "Zoryl"],
+      "class": "Antidiabetic (Sulfonylurea)",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["1mg", "2mg", "3mg", "4mg"],
+      "plain_purpose": "Stimulates pancreas to release more natural insulin",
+      "food_instruction": "Take before breakfast or first main meal of the day"
+    },
+    {
+      "generic": "Atorvastatin",
+      "common_brands": ["Atorva", "Lipitor", "Storvas"],
+      "class": "Statin (Lipid-lowering)",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["10mg", "20mg", "40mg", "80mg"],
+      "plain_purpose": "Lowers cholesterol in the blood to protect heart and blood vessels",
+      "food_instruction": "Usually taken at night with or without food"
+    },
+    {
+      "generic": "Amlodipine",
+      "common_brands": ["Amlong", "Norvasc", "Stamlo"],
+      "class": "Calcium Channel Blocker",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["2.5mg", "5mg", "10mg"],
+      "plain_purpose": "Relaxes blood vessels to lower blood pressure",
+      "food_instruction": "Take once daily, morning or evening, with water"
+    },
+    {
+      "generic": "Telmisartan",
+      "common_brands": ["Telma", "Micardis", "Telpres"],
+      "class": "Angiotensin Receptor Blocker",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["20mg", "40mg", "80mg"],
+      "plain_purpose": "Lowers high blood pressure and protects kidneys and heart",
+      "food_instruction": "Take once daily at the same time each day"
+    },
+    {
+      "generic": "Aspirin",
+      "common_brands": ["Ecosprin", "Disprin", "Bayer"],
+      "class": "Antiplatelet / Blood Thinner",
+      "common_forms": ["Enteric Coated Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["75mg", "150mg"],
+      "plain_purpose": "Prevents blood cells from sticking together into harmful clots",
+      "food_instruction": "Take after meals with water to protect stomach lining"
+    },
+    {
+      "generic": "Clopidogrel",
+      "common_brands": ["Plavix", "Clopivas", "Deplatt"],
+      "class": "Antiplatelet",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["75mg"],
+      "plain_purpose": "Keeps blood flowing smoothly and stops clots after heart procedures",
+      "food_instruction": "Take once daily with or without food"
+    },
+    {
+      "generic": "Paracetamol",
+      "common_brands": ["Crocin", "Dolo 650", "Calpol", "Tylenol"],
+      "class": "Analgesic / Antipyretic",
+      "common_forms": ["Tablet", "Syrup"],
+      "standard_units": ["mg"],
+      "common_strengths": ["500mg", "650mg"],
+      "plain_purpose": "Relieves mild to moderate pain and reduces fever",
+      "food_instruction": "Can be taken with or without food. Do not exceed 4000mg in 24 hours"
+    },
+    {
+      "generic": "Pantoprazole",
+      "common_brands": ["Pan 40", "Pantocid", "Protonix"],
+      "class": "Proton Pump Inhibitor (Antacid)",
+      "common_forms": ["Tablet", "Capsule"],
+      "standard_units": ["mg"],
+      "common_strengths": ["20mg", "40mg"],
+      "plain_purpose": "Reduces stomach acid to heal ulcer, acidity and protect stomach",
+      "food_instruction": "Take 30 to 60 minutes before breakfast on an empty stomach"
+    },
+    {
+      "generic": "Amoxicillin-Clavulanate",
+      "common_brands": ["Augmentin", "Moxikind-CV", "Clavam"],
+      "class": "Broad-spectrum Antibiotic",
+      "common_forms": ["Tablet", "Syrup"],
+      "standard_units": ["mg"],
+      "common_strengths": ["625mg", "375mg", "1000mg"],
+      "plain_purpose": "Fights bacterial infections; must complete full prescribed course",
+      "food_instruction": "Take at the start of a meal to help absorption and reduce nausea"
+    },
+    {
+      "generic": "Cefuroxime",
+      "common_brands": ["Ceftum", "Zinacef", "Pulmocef"],
+      "class": "Cephalosporin Antibiotic",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mg"],
+      "common_strengths": ["250mg", "500mg"],
+      "plain_purpose": "Treats bacterial infections in respiratory tract, urinary system or surgical wounds",
+      "food_instruction": "Take with or right after food for better absorption"
+    },
+    {
+      "generic": "Levothyroxine",
+      "common_brands": ["Thyronorm", "Eltroxin", "Synthroid"],
+      "class": "Thyroid Hormone",
+      "common_forms": ["Tablet"],
+      "standard_units": ["mcg"],
+      "common_strengths": ["25mcg", "50mcg", "75mcg", "100mcg"],
+      "plain_purpose": "Replaces natural thyroid hormone your thyroid gland is not making enough of",
+      "food_instruction": "Take first thing in morning with plain water, wait 30-45 minutes before tea, coffee, or food"
+    },
+    {
+      "generic": "Iron and Folic Acid",
+      "common_brands": ["Autrin", "Orofer-XT", "Fefol"],
+      "class": "Hematinic / Vitamin Supplement",
+      "common_forms": ["Tablet", "Capsule"],
+      "standard_units": ["mg"],
+      "common_strengths": ["100mg elemental iron + 500mcg folic acid"],
+      "plain_purpose": "Builds healthy red blood cells to treat or prevent anemia",
+      "food_instruction": "Best taken with vitamin C (like citrus water); avoid milk, tea, or coffee for 2 hours"
+    },
+    {
+      "generic": "Salbutamol",
+      "common_brands": ["Asthalin", "Ventolin"],
+      "class": "Short-acting Bronchodilator",
+      "common_forms": ["Inhaler", "Rotacaps", "Nebulizer Solution"],
+      "standard_units": ["mcg", "puffs"],
+      "common_strengths": ["100mcg/puff"],
+      "plain_purpose": "Quick-relief inhaler that opens airways during wheezing or asthma attacks",
+      "food_instruction": "Inhale as directed; rinse mouth with water after use"
+    },
+    {
+      "generic": "Budesonide",
+      "common_brands": ["Budecort", "Pulmicort"],
+      "class": "Inhaled Corticosteroid",
+      "common_forms": ["Inhaler", "Respules"],
+      "standard_units": ["mcg", "mg"],
+      "common_strengths": ["200mcg", "400mcg", "0.5mg/2ml"],
+      "plain_purpose": "Reduces swelling and inflammation inside lungs to prevent asthma/COPD flare-ups",
+      "food_instruction": "Always gargle and rinse mouth thoroughly with water and spit out after each use"
+    }
+  ]
+}
